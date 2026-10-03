@@ -1,12 +1,16 @@
 # App Privacy Policy Template
 
-A reusable privacy-policy template for apps that may use:
+A reusable privacy-policy repository for apps that may use:
 
 - Google AdMob / Google Mobile Ads
 - RevenueCat for subscription management
 - Supabase for authentication, database, storage, realtime, or server functions
 
 The contact email is prefilled as `mcvlimited.uk@gmail.com`.
+
+## Use this policy across your apps
+
+Use [PRIVACY_POLICY.md](PRIVACY_POLICY.md) as the single umbrella policy for every MCV Limited app that links to it. It is written to cover Apps that use AdMob, RevenueCat, Supabase, or none of those services. Each App still needs accurate App Store App Privacy / Google Play Data Safety disclosures and, where it materially differs from the umbrella policy, a short app-specific privacy notice.
 
 ## Before publishing
 
