@@ -8,6 +8,11 @@ A reusable privacy-policy repository for apps that may use:
 
 The contact email is prefilled as `mcvlimited.uk@gmail.com`.
 
+## Purrsuit
+
+- [Purrsuit privacy details](PRIVACY_POLICY.md#purrsuit-specific-information)
+- [Support and account help](SUPPORT.md)
+
 ## Use this policy across your apps
 
 Use [PRIVACY_POLICY.md](PRIVACY_POLICY.md) as the single umbrella policy for every MCV Limited app that links to it. It is written to cover Apps that use AdMob, RevenueCat, Supabase, or none of those services. Each App still needs accurate App Store App Privacy / Google Play Data Safety disclosures and, where it materially differs from the umbrella policy, a short app-specific privacy notice.

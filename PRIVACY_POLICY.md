@@ -1,6 +1,6 @@
 # MCV Limited Apps Privacy Policy
 
-**Effective date:** October 3, 2026  
+**Effective date:** October 4, 2026
 **Contact:** mcvlimited.uk@gmail.com
 
 This Privacy Policy applies to mobile applications, games, and related services published by MCV Limited that link to this policy (collectively, the "Apps"). It explains how information is handled when you use an App.
@@ -27,6 +27,8 @@ Some Apps use Google Mobile Ads (AdMob) to display banner, interstitial, rewarde
 
 Where required, an App uses Google's consent flow before requesting ads and provides a privacy-options entry point when Google requires one. You can use that entry point to review or change applicable advertising choices. Declining consent may result in non-personalized, limited, or no ads, depending on availability and applicable law.
 
+On Apple devices, an App may also display Apple's App Tracking Transparency prompt. If you allow tracking, Google and its advertising partners may access the device advertising identifier (IDFA) to provide and measure personalized advertising and help detect fraud. If you choose **Ask App Not to Track**, the App remains usable and ads may still be shown without the IDFA. You can change this permission later in iOS Settings under Privacy & Security > Tracking.
+
 See [Google's Privacy Policy](https://policies.google.com/privacy) and [How Google uses information from sites or apps that use its services](https://policies.google.com/technologies/partner-sites).
 
 ## Subscriptions: RevenueCat
@@ -41,6 +43,35 @@ Some Apps use Supabase to provide services such as authentication, database stor
 
 See [Supabase's Privacy Policy](https://supabase.com/privacy).
 
+## Cloud features: Google Firebase
+
+Some Apps use Google Firebase services including Firebase Authentication and Cloud Firestore. Depending on the App and account tier, Firebase may process an email address, authentication-provider identifiers, IP address and technical information, and content that the user asks the App to store or synchronize. We configure database access controls intended to restrict account content to the authenticated user who owns it.
+
+See [Google's Privacy Policy](https://policies.google.com/privacy) and [Firebase privacy and security information](https://firebase.google.com/support/privacy).
+
+## Purrsuit-specific information
+
+Purrsuit is a personal tracking App published by MCV Limited. It is not intended to provide medical, financial, or other professional advice.
+
+Purrsuit processes the following information according to the features you use:
+
+- **Account information:** email address and Firebase user identifier, plus an authentication-provider identifier when you use Sign in with Apple or Google. Apple or Google may provide a name on the first authorization. Purrsuit does not receive your Apple ID or Google password.
+- **Tracker content:** tracker names, categories, units, optional notes and targets, dated numeric entries, and settings. Live trackers may also contain a selected place, sports team, market symbol, or related source parameters. This information is used to provide the tracking features you request.
+- **Language and settings:** preferred language, advertising-consent choices, and other operational preferences.
+- **Subscriptions:** RevenueCat receives a Purrsuit App User ID linked to the Firebase user identifier, product and entitlement identifiers, App Store receipt and transaction information, and technical information needed to determine whether Purrsuit Pro is active. MCV Limited and RevenueCat do not receive full payment-card information.
+- **Advertising:** free users may see Google AdMob banner, interstitial, and rewarded ads. Google and its partners may process IP address, advertising identifiers including IDFA when Apple tracking permission and applicable consent have been granted, app interactions, consent signals, and diagnostic or fraud-prevention information.
+- **Live-data requests:** when a user chooses a live tracker, Purrsuit sends the necessary query, such as a location coordinate, team identifier, or market symbol, to the relevant public data source. Purrsuit does not request precise device-location permission; the user chooses the location or subject to track.
+
+Purrsuit uses Firebase Authentication for account access, Cloud Firestore for eligible cloud storage and synchronization, RevenueCat for subscription status and purchase restoration, Apple App Store for payment, and Google AdMob/User Messaging Platform for advertising and privacy choices.
+
+Free-tier tracking content may be stored only on the user's device. Purrsuit Pro content may be stored in Cloud Firestore so it can synchronize across signed-in devices. Removing the App can erase device-only content. Cloud storage eligibility and migration behavior are described in the App when applicable.
+
+Purrsuit does not publicly display tracker content and does not provide social sharing or messaging. MCV Limited does not sell Purrsuit tracker content.
+
+Users can permanently delete their Purrsuit account from **Account > Delete account**. The deletion flow re-authenticates the user, removes tracker content and settings held in Purrsuit's Firebase database, revokes Apple authorization where applicable, and deletes the Firebase Authentication account. Apple subscription and transaction records are controlled separately by Apple and may be retained where required for financial, fraud-prevention, tax, or legal obligations. Deleting a Purrsuit account does not automatically cancel an active App Store subscription; subscriptions can be managed in Apple ID settings.
+
+For access, correction, portability, deletion, or privacy questions, contact **mcvlimited.uk@gmail.com**. Include “Purrsuit privacy request” in the subject line. Do not send passwords, payment-card details, or sensitive tracker content by email.
+
 ## Other service providers and sharing
 
 An App may use additional providers for app-store payments, authentication, crash reporting, analytics, notifications, email, or customer support. We may share information with those providers only as needed to operate the relevant feature, comply with law, protect rights and safety, or in connection with a business transfer. We do not sell personal information.
@@ -48,6 +79,8 @@ An App may use additional providers for app-store payments, authentication, cras
 ## Retention and deletion
 
 We retain information for as long as needed to provide the relevant App, meet legal obligations, resolve disputes, prevent fraud, and maintain security. Retention varies by App and by the data involved. You may be able to delete information within an App; you can also contact us at the email below to request deletion or ask how to delete information for a particular App.
+
+Device-only information remains on the device until it is deleted in the App, the account is deleted, or the App and its local data are removed. Cloud account content is retained while the account is active and is removed through the App's account-deletion flow, subject to backups, security logs, transaction records, and information that must be retained for legal, tax, fraud-prevention, or dispute-resolution purposes. Service providers may retain limited records under their own legal obligations and retention schedules.
 
 ## Your rights and choices
 
